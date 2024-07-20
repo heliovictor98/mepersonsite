@@ -1,19 +1,43 @@
-<mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>Shiba Inu</mat-card-title>
-    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-  </mat-card-header>
-  <img style="width: 130px;" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-  <mat-card-content>
-    <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-      bred for hunting.
-    </p>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-  </mat-card-actions>
-</mat-card>
+ <!--PROJETO 1-->
+<mat-grid-list cols="2" rowHeight="2:2">
+  <mat-grid-tile>
+    <mat-card class="style-card">
+      <mat-card-header>
+        <mat-card-title-group>
+          <mat-card-title>Lista de Compras</mat-card-title>
+          <mat-card-subtitle>Organize suas compras de supermercado com facilidade! Cadastre seus produtos, insira nome, valor e quantidade, e veja automaticamente o total da sua lista. Simples e eficiente para otimizar suas compras e manter o controle dos gastos.</mat-card-subtitle>
+          <img mat-card-sm-image src="../../assets/photo/icone-lista-compra.png" >
+        </mat-card-title-group>
+      </mat-card-header>
+      <br>
+      <mat-card-content>
+        <button style="margin-right: 10px;" mat-flat-button color="primary">Acessar</button>
+        <a href="https://github.com/heliovictor98/app-lista-de-compras" target="_blank">
+          <button mat-flat-button style="background-color: black; color: white;">
+            Github
+          </button>
+        </a>
+
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+
+  <!--PROJETO 2-->
+  <mat-grid-tile>
+    <mat-card class="style-card">
+      <mat-card-header>
+        <mat-card-title-group>
+          <mat-card-title>Lista de Compras</mat-card-title>
+          <mat-card-subtitle>Organize suas compras de supermercado com facilidade! Cadastre seus produtos, insira nome, valor e quantidade, e veja automaticamente o total da sua lista. Simples e eficiente para otimizar suas compras e manter o controle dos gastos.</mat-card-subtitle>
+          <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+        </mat-card-title-group>
+      </mat-card-header>
+      <br>
+      <mat-card-content>
+        <button style="margin-right: 10px;" mat-flat-button color="primary">Basic</button>
+        <button mat-flat-button color="primary">Basic</button>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+

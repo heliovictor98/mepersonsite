@@ -4,6 +4,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { AboutComponent } from "../about/about.component";
 import { TitleNameComponent } from "../title-name/title-name.component";
 import { ProjectComponent } from "../project/project.component";
+import { RodapeComponent } from "../rodape/rodape.component";
 
 
 
@@ -15,7 +16,8 @@ import { ProjectComponent } from "../project/project.component";
     MatTabsModule,
     AboutComponent,
     TitleNameComponent,
-    ProjectComponent
+    ProjectComponent,
+    RodapeComponent
 ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
