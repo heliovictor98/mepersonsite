@@ -1,27 +1,33 @@
-# Mepersonalsite
+# Portfólio Pessoal de Hélio Barros
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Bem-vindo ao meu portfólio pessoal! Este projeto apresenta meu trabalho e minha trajetória como Engenheiro de Software.
 
-## Development server
+## Sobre Mim
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Olá! Eu sou Hélio Barros, Engenheiro de Software com 3 anos de experiência. Minha paixão é criar soluções eficientes e elegantes para problemas complexos. Tenho experiência em diversas tecnologias e estou sempre em busca de aprender e melhorar minhas habilidades.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Angular
 
-## Build
+- **Backend:**
+  - Node.js
+  - Java
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Banco de Dados:**
+  - PostgreSQL
+  - Oracle
 
-## Running unit tests
+- **Outras Ferramentas:**
+  - Git & GitHub
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Funcionalidades do Site
 
-## Running end-to-end tests
+<!-- - **Sobre Mim:** Uma breve introdução sobre quem sou e minha trajetória profissional.
+- **Projetos:** Uma seção detalhada com alguns dos projetos em que trabalhei, incluindo descrições, tecnologias utilizadas e links para o código fonte.
+- **Contato:** Informações de contato e um formulário para que visitantes possam entrar em contato comigo diretamente através do site. -->
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
